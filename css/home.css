@@ -7,6 +7,32 @@ body {
 	margin: 0
 }
 
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 48px;  /* Preferred icon size */
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+  
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+  
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+  }
+
 .blank_space {
 	height: 5px;
 }
@@ -18,20 +44,20 @@ body {
 }
 
 .tlf {
-	color: #3ebabc;
+	color: #fff;
 }
 
 .top {
 	position: fixed;
-	color: #3ebabc;
+	color: #fff;
 	display: table;
 	font-family: 'Open Sans', sans-serif;
 	top: 0;
 	font-size: 18px;
-	background-color: #fff;
+	background-color: #3a9599;
 	width: 100%;
 	align-items: center;
-	height: 32px;
+	height: 38px;
 }
 
 .number {
@@ -104,19 +130,19 @@ transition: all 0.4s ease 0s;
 }
 
 .cuadro_opina {
-color: #3ebabc !important;
+color: #3a9599 !important;
 margin-right: 20px;
 margin-left: 20px;
 text-transform: uppercase;
-background:hsla(0,0%,100%,0.85) ;
+background:hsla(0,0%,100%,0.9) ;
 font-family: 'Open Sans', sans-serif;
-width:55%;
+width: 55%;
 padding-bottom: 10px;
 margin-top: 20px;
 padding-top: 10px;
 font-size: 12px;
-border: 2px solid #FFF;
-border-radius: 15px;
+border: 0px solid #FFF;
+border-radius: 5px;
 display: inline-block;
 transition: all 0.4s ease 0s;
 }
