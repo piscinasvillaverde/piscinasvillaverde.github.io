@@ -88,27 +88,6 @@ border-color: #fff !important;
 transition: all 0.4s ease 0s;
 }
 
-.example_e {
-color: #FFF !important;
-text-transform: uppercase;
-background:hsla(0,0%,100%,0.00) ;
-font-family: 'Open Sans', sans-serif;
-width: 95%;
-padding-bottom: 18px;
-margin-top: 10px;
-padding-top: 18px;
-font-size: 20px;
-border: 5px solid #FFF !important;
-border-radius: 20px;
-display: inline-block;
-transition: all 0.4s ease 0s;
-}
-.example_e:hover {
-color: #3ebabc !important;
-background: #fff;
-border-color: #fff !important;
-transition: all 0.4s ease 0s;
-}
 .button_cont {
 	margin-right: 20px;
 	margin-left: 20px;
@@ -145,16 +124,6 @@ border: 0px solid #FFF;
 border-radius: 5px;
 display: inline-block;
 transition: all 0.4s ease 0s;
-}
-
-.review-btn {
-background:#ea4335;
-color:#fff;
-font-size:18px;
-padding:8px 20px;
-text-decoration:none;
-border-radius:4px;
-border:none;
 }
 
 a:link, a:visited, a:active {
