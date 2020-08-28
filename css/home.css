@@ -7,6 +7,18 @@ body {
 	margin: 0
 }
 
+#mostrarmodal {
+	position:fixed;
+	top:auto;
+	right:0;
+	left:0;
+	bottom:0;
+}
+
+.modal-footer {
+	height: 55px;
+}
+
 .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;

@@ -1,19 +1,39 @@
 <!doctype html>
 <html>
 <head>
+<title>Piscinas Municipales de Villaverde de Iscar</title>
 <meta charset="utf-8">
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Piscinas Municipales de Villaverde de Iscar</title>
 <link href="css/home.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon-precomposed" href="favicon.png" type="image/png" sizes="152x152">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script>
+	$(document).ready(function(){
+	//loads when document is ready
+	
+	if (document.cookie.indexOf('modal_shown=') >= 0) {
+	 //do nothing if modal_shown cookie is present
+	} else {
+	  $('#mostrarmodal').modal('show');  //show modal pop up
+	  document.cookie = 'modal_shown=seen'; //set cookie modal_shown
+	  //cookie will expire when browser is closed
+	}
+	
+	})
+	</script>
+
 </head>
 <body>
+
 	<div align="center" class="top">
 	 <div class="number"><a class="tlf" href="tel:+34681265296"><i align="center" class="material-icons">phone</i> 681 26 52 96</a></div>
 	</div>
@@ -36,5 +56,19 @@
 	</div>
 	<div align="center" class="gracias">¡Gracias por visitarnos!</div>
 	<div class="footer"><img class="footer" src="images/footer.png" width="100%" alt=""/></div>
+	
+	<div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			 <div class="modal-body">
+				<h4>Echa un vistazo a las buenas prácticas de prevención contra el COVID-19 en hostelería <a href="prevencioncovid.pdf">AQUÍ</a></h4>
+		 </div>
+			 <div class="modal-footer">
+			<a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
+			 </div>
+		</div>
+	 </div>
+  </div>
+
 </body>
 </html>
