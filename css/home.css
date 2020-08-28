@@ -37,6 +37,12 @@ body {
 	height: 5px;
 }
 
+.gracias {
+	color: #FFF;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .footer {
 	position: fixed;
 	bottom: 70;
